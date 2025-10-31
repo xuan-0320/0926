@@ -231,7 +231,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 46f311046d2104da8b56be3d0a49a119, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.508
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 46f311046d2104da8b56be3d0a49a119, type: 3}
       propertyPath: m_LocalPosition.z
@@ -415,7 +415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ed093621d8d342e9b74c757be4c323b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trackerCam: {fileID: 0}
+  trackerCam: {fileID: 4567292860909900688}
   imageTargets:
   - id: IMG_1856
     transform: {fileID: 6882280425009629135}
@@ -425,7 +425,7 @@ MonoBehaviour:
   trackedIds: []
   trackerSettings:
     maxSimultaneousTargets: 1
-    targetFrameRate: 60
+    targetFrameRate: -1
     advancedSettings:
       maxFrameLength: 500
       maxFrameArea: 80
